@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firebasecrud">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.firebasecrud.adapter.StudentAdapter"></activity>
+        <activity android:name="com.example.firebasecrud.StudentData" />
+        <activity android:name="com.example.firebasecrud.StudentArea" />
+        <activity android:name="com.example.firebasecrud.LecturerDetail" />
+        <activity android:name="com.example.firebasecrud.adapter.LecturerAdapter" />
+        <activity android:name="com.example.firebasecrud.LecturerData" />
+        <activity android:name="com.example.firebasecrud.UserMain" />
+        <activity android:name="com.example.firebasecrud.AddCourse" />
+        <activity android:name="com.example.firebasecrud.AddLecturer" />
+        <activity android:name="com.example.firebasecrud.LoginStudent" />
+        <activity android:name="com.example.firebasecrud.StudentRegister" />
+        <activity android:name="com.example.firebasecrud.MainActivity" />
+        <activity android:name="com.example.firebasecrud.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
